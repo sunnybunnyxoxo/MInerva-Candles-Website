@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/css.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-color: #b4baca">
+    <div class="navbar">
+      <img src="../images/logo4.png" height="80px" width="250px" />
+      <table class="navtable">
+        <tr>
+          <td class="navitem"><a href="index.html" class="a">Home</a></td>
+          <td class="navitem">
+            <a href="Products.html" class="a">Products</a>
+          </td>
+          <td class="navitem"><a href="AboutUs.html" class="a">About Us</a></td>
+          <td class="navitem">
+            <a href="ContactUs.html" class="a">Contact Us</a>
+          </td>
+          <td class="navitem"><a href="Account.html" class="a">Account</a></td>
+          <td class="navitem">
+            <a href="PlaceOrder.html" class="a">Place Order</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="middle">
+      <br />
+      <br />
+      <div class="row2">
+        <div class="column2">
+          <br />
+          <h1>We'd love to hear from you!</h1>
+          <br />
+          <p>
+            <b
+              >Feel free to get in touch with us if you have any questions! Our
+              customer support team is here to accomodate you.</b
+            >
+          </p>
+          <br />
+          <br />
+          <br />
+          <table>
+            <h2>Our Office Locations</h2>
+            <br />
+            <tr>
+              <td style="padding-right: 20px">
+                <h3>Birmingham</h3>
+                <p>
+                  127 Boroughbridge Road,<br />East Birmingham,<br />B4 1LQ.<br />078
+                  8992 0190
+                </p>
+              </td>
+              <td>
+                <h3>London</h3>
+                <p>
+                  35 Church Road,<br />London,<br />SW30 4TS.<br />070 6480 7978
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="column2">
+          <br />
+          <form
+            class="contactus"
+            name="myForm2"
+            method="POST"
+            onsubmit="validate2();"
+          >
+            <br />
+            <h1>Shoot us a message!</h1>
+            <br />
+            <br />
+            <label>Name</label>
+            <input
+              class="signuptextfields"
+              type="text"
+              name="name"
+              value=""
+              placeholder="Enter your Name"
+            />
+            <br />
+            <label>Email</label>
+            <input
+              class="signuptextfields"
+              type="email"
+              name="Email"
+              value=""
+              placeholder="Enter your Email"
+            />
+            <br />
+            <label style="vertical-align: top">Comments</label>
+            <textarea
+              class="signuptextfields"
+              rows="3"
+              cols="40"
+              placeholder="Ask us a Question"
+              required
+            ></textarea>
+            <br />
+            <br />
+            <button
+              class="button"
+              type="submit"
+              onsubmit="alert('Message sent')"
+            >
+              Send
+            </button>
+            <br />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h2 class="follow">Follow Us!</h2>
+      <table class="social">
+        <tr>
+          <td class="socials">
+            <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+          </td>
+          <td class="socials">
+            <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          </td>
+          <td class="socials">
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+          </td>
+          <td class="socials">
+            <a href="#"><i class="bx bxl-whatsapp"></i></a>
+          </td>
+        </tr>
+      </table>
+      <p class="copyright">
+        <b>COPYRIGHT 2021 </b><i class="bx bx-copyright"></i>
+      </p>
+    </div>
+    <script type="text/Javascript" src="../js/myjs.js"></script>
+  </body>
+</html>

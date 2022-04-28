@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Account</title>
+    <link rel="stylesheet" href="../css/css.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-color: #b4baca">
+    <div class="navbar">
+      <img src="../images/logo4.png" height="80px" width="250px" />
+      <table class="navtable">
+        <tr>
+          <td class="navitem"><a href="index.html" class="a">Home</a></td>
+          <td class="navitem">
+            <a href="Products.html" class="a">Products</a>
+          </td>
+          <td class="navitem"><a href="AboutUs.html" class="a">About Us</a></td>
+          <td class="navitem">
+            <a href="ContactUs.html" class="a">Contact Us</a>
+          </td>
+          <td class="navitem"><a href="Account.html" class="a">Account</a></td>
+          <td class="navitem">
+            <a href="PlaceOrder.html" class="a">Place Order</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="middle">
+      <br />
+      <div class="account">
+        <form class="signup" name="myForm" method="POST" onsubmit="validate();">
+          <br />
+          <br />
+          <h1>
+            <centre
+              >Sign Up for Our Newsletter!<i class="bx bx-news"></i
+            ></centre>
+          </h1>
+          <br />
+          <p><b>Be the first to know about all our exciting offers...</b></p>
+          <br />
+          <label>Full Name</label>
+          <input
+            class="signuptextfields"
+            type="text"
+            name="fname"
+            value=""
+            placeholder="Enter your Name"
+          />
+          <br />
+          <label>Email Address</label>
+          <input
+            class="signuptextfields"
+            type="email"
+            name="email"
+            value=""
+            placeholder="Enter your Email"
+          />
+          <br />
+          <label>Phone No</label>
+          <input
+            class="signuptextfields"
+            type="tel"
+            name="phone"
+            value=""
+            placeholder="Enter your Number"
+          />
+          <br />
+          <label style="vertical-align: top">Address</label>
+          <textarea
+            class="signuptextfields"
+            rows="3"
+            cols="25"
+            placeholder="Enter your Address"
+          ></textarea>
+          <br />
+          <input type="checkbox" required />
+          <label style="color: rgb(107, 102, 177)"
+            >I want to recieve emails and sms</label
+          >
+          <br />
+          <button class="button" type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h2 class="follow">Follow Us!</h2>
+      <table class="social">
+        <tr>
+          <td class="socials">
+            <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+          </td>
+          <td class="socials">
+            <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          </td>
+          <td class="socials">
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+          </td>
+          <td class="socials">
+            <a href="#"><i class="bx bxl-whatsapp"></i></a>
+          </td>
+        </tr>
+      </table>
+      <p class="copyright">
+        <b>COPYRIGHT 2021 </b><i class="bx bx-copyright"></i>
+      </p>
+    </div>
+    <script type="text/Javascript" src="../js/myjs.js"></script>
+  </body>
+</html>

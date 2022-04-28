@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    color: #555;
+}
+/* nav bar css */
+.navbar{
+    display: block;
+    max-width: 100%;
+    height: 80px;
+    background-color: #C7CFD4;
+    margin-bottom: 0;
+    
+}
+.navtable{
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    
+}
+.navitem{
+    padding-left: 50px;
+    font-size: large;
+}
+.a{
+    text-decoration: none;
+    color: #555;
+}
+/* Home middle */
+.grid1{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    top: 0;
+    background-color: rgb(245, 242, 238);
+    
+}
+.h1{ 
+    margin: 20px;
+
+}
+.p{
+    margin: 20px;
+    font-size: larger;
+}
+.viewbox{
+    width: 500px;
+    margin-left: 410px;
+    border-radius: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+#testimonials{
+    display: flex;
+    transition: 0.5s;
+}
+.user{
+    width: 500px;
+    height: 225px;
+    margin-right: 1px;
+    margin-left: 1px;
+    text-align: center;
+    padding: 10px 40px ;
+    box-sizing: border-box;
+    background-color: #B4BACA;
+    border-radius: 130px;
+    box-shadow: 0 10px 10px -5px #00000061;
+    
+}
+.user img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #555;
+    margin: 5px;
+}
+.user p{
+    font-size: 15px;
+    margin: 2px;
+}
+.controls{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 49%;
+    transform: translateX(-50%);
+}
+.controls span{
+    width: 10px;
+    height: 10px;
+    background-color: #555;
+    border-radius: 10px;
+    margin: 0 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.active{
+    width: 30px !important;
+}
+/* footer css */
+.footer{
+    height:100px;
+    width: 100%;
+    background-color: #C7CFD4;
+    text-align: left;
+}
+.follow{
+    margin-left: 10px;
+    
+}
+.social{
+    margin-left: 10px;
+}
+.socials{
+    font-size: x-large;
+    text-align: center;
+}
+.copyright{
+    margin-left: 10px;
+}
+/* middle div for rest webpages */
+.middle{
+    height: 443px;
+    width: 100%;
+    background-image: url("../images/bg1.png");
+    
+}
+/* about us middle div css */
+.row {
+    display: flex;
+    margin-left: 10px;
+   
+} 
+.column {
+    flex: 50%;
+    margin-left: 10px;
+    font-weight: bold;  
+}
+/* account webpage css */
+.account{
+    margin-left: 450px;  
+}
+.signup{
+    width: 400px;
+    height: 390px;
+    text-align: center;
+    border: 5px solid #a0accc;
+    border-radius: 20%;
+    background-color: #B4BACA;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.664)
+}
+.signuptextfields{
+    margin-top: 3px;
+    border: none;
+    text-align: center;
+    font-size:medium ;
+
+}
+.button{
+    background-color:rgb(107, 102, 177);
+    border: none;
+    border-radius: 10%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* contact us page css */
+.row2{
+    display: flex;
+    margin-left: 10px;
+}
+.column2{
+    flex: 50%;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.contactus{
+    height: 300px;
+    text-align: center;
+    margin-left: 20px;
+    border: 3px solid #a0accc;
+    border-radius: 5%;
+    background-image: url("../images/background.jpg");
+}
+/* products page css */
+.row3{
+    display: flex;
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.column3{
+    flex: 33.3%;
+    margin-left: 100px;
+    font-weight: bold;
+    margin-right: 100px;
+}
+.products{
+    height: 230px;
+}
+.productsformat{
+    text-align: center;
+}
+.productimage{
+    height: 200px;
+    width: 200px;
+}
+/* pace order page css */
+.order{
+    margin-left: 30px;
+}
+.placeorder{
+    margin-left: 30px;
+    font-size: medium;
+
+}
+
+
